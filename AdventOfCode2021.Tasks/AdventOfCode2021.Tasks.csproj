@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Tasks\" />
+    <None Remove="Files\" />
+    <None Remove="Files\InputData.Task1.1.txt" />
+    <None Remove="Misc\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Files\InputData.Task1.txt" />
+  </ItemGroup>
+</Project>
